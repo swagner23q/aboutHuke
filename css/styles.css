@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+#fa {
+  font-size: 30px;
+  margin: 8px;
+}
+body {
+  background-color: #112026;
+  color: white;
+}
+h3 {
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+.fullHeader {
+  background-image: url("../img/blackRockBanner.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 575px;
+  position: relative;
+  border-radius: 90px 90px 0px 0px ;
+  box-shadow: 0px 8px 8px black;
+}
+.strangeLove {
+  font-family: 'Covered By Your Grace', cursive;
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px black;
+  position: absolute;
+  left: 45px;
+  top: 15px;
+}
+.strangeLove:hover, .about:hover, .contact:hover, .work:hover {
+  cursor: pointer;
+  text-shadow: 4px 4px 8px #E4D7CE;
+}
+.about, .contact, .work {
+  font-size: 30px;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  top: 20px;
+  left: 1000px;
+  text-shadow: 4px 4px 8px black;
+  width: 100px;
+  margin-right: 15px;
+  position: absolute;
+}
+.about {
+  top: 20px;
+  left: 1000px;
+}
+.work {
+  top: 20px;
+  left: 1130px;
+}
+.contact {
+  top: 20px;
+  left: 1250px;
+}
+.whoHuke {
+  background-color: #506B74;
+  float: left;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  border: 5px ridge grey;
+  width: 704px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.photosOverlord {
+  background-color: #506B74;
+  float: right;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  border: 5px ridge grey;
+  width: 704px;
+  padding: 15px;
+  margin-top: 10px;
+}
