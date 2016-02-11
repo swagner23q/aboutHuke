@@ -8,6 +8,11 @@
 #fa {
   font-size: 30px;
   margin: 8px;
+  transition: all .2s ease-in-out;
+}
+#fa:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 5px black;
 }
 body {
   background-color: #112026;
@@ -69,16 +74,44 @@ h3 {
   font-size: 15px;
   border: 5px ridge grey;
   width: 704px;
+  height: 600px;
   padding: 15px;
   margin-top: 10px;
 }
+.emailMeButton {
+  border: 3px dotted #0A1311;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 25px;
+  background-color: #0A1311;
+  color: white;
+  border-radius: 14px;
+}
+.emailMeButton:hover {
+  background-color: white;
+  color: #0A1311;
+  cursor: pointer;
+}
+
 .photosOverlord {
   background-color: #506B74;
+  position: relative;
   float: right;
   font-family: 'Titillium Web', sans-serif;
   font-size: 15px;
   border: 5px ridge grey;
   width: 704px;
+  height: 600px;
   padding: 15px;
   margin-top: 10px;
+}
+.hukePhotos img {
+  vertical-align: middle;
+  height: 20%;
+  width: 20%;
+  margin: 15px;
+  position: static;
+  box-shadow: 1px 2px 5px black;
+  border-radius: 5px;
 }
